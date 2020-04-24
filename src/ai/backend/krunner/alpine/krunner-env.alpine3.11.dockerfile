@@ -1,4 +1,4 @@
-FROM lablup/backendai-krunner-python:alpine3.8
+FROM lablup/backendai-krunner-python:alpine3.11
 
 ARG PREFIX=/opt/backend.ai
 
