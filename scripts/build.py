@@ -8,11 +8,12 @@ import pkg_resources
 import click
 
 
-distro = 'alpine3.8'
+default_distro = 'alpine3.8'
 
 
 @click.command()
-def main():
+@click.argument('distro', default=default_distro)
+def main(distro):
     '''
     Build the kernel runner environment containers and tar archives which provides the /opt/backend.ai
     volume to all other kernel contaienrs.
