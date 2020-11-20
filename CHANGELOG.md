@@ -1,11 +1,7 @@
-### 3.0 (2020-03-14)
+### 1.0.1 (2020-11-20)
 
-* Update the krunner image for `alpine3.8` to Python 3.8.2 along with krunner dependencies.
+* Explicitly embed the licenses of all statically built and pre-installed binaries and packages.
 
-### 2.0 (2019-09-22)
+### 1.0.0 (2020-11-19)
 
-* Add `ttyd` as an intrinsic service binary.
-
-### 1.0 (2019-07-25)
-
-* Initial release for `alpine3.8` with Python 3.6.8.
+* Initial release of the `static-musl` krunner-env package with a statically built Python 3.8.6.
