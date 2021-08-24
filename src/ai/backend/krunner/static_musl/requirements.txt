@@ -1,5 +1,5 @@
 async_timeout~=3.0
-pyzmq~=22.2
+pyzmq~=22.2 --install-options='--zmq=bundled'
 uvloop~=0.16
 attrs~=21.2
 janus~=0.6.1
